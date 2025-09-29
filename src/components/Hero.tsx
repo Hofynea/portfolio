@@ -7,17 +7,17 @@ const Hero: React.FC = () => {
         <div className="text-center">
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-sage-400 to-earth-400 rounded-full flex items-center justify-center">
-              <span className="text-4xl font-bold text-white">JD</span>
+              <span className="text-4xl font-bold text-white">ER</span>
             </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-earth-800 mb-6">
-            <span className="block">John Doe</span>
+            <span className="block">Emmanuelle "Emma" Rustys</span>
             <span className="block text-3xl md:text-4xl font-normal text-sage-600 mt-2">
-              Full Stack Developer
+              Software Engineer & UI Developer
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-earth-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Passionate about creating beautiful, functional web experiences and exploring the intersection of technology and art.
+            I code, design interfaces, and build visual escapes with AI tools.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
