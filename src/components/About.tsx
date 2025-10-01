@@ -12,22 +12,19 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-earth-700 leading-relaxed">
-              I'm a passionate full-stack developer with a keen eye for design and a love for creating 
-              digital experiences that matter. My journey in technology began with curiosity and has 
-              evolved into a career focused on building innovative solutions.
+              I'm a full-stack software engineer with a strong backend focus and a clean, practical approach to design. I build tools
+              that work - from Flask apps with background scheduling to data dashboards and reminders with intuitive interfaces.
+              My strengths lie in clean logic, efficient logic, and solving real problems with tech that feels straightforward
+              and useful.
             </p>
             <p className="text-lg text-earth-700 leading-relaxed">
-              When I'm not coding, you'll find me exploring digital art, experimenting with AI-generated 
-              content, or diving into the latest web technologies. I believe in the power of technology 
-              to create meaningful connections and solve real-world problems.
-            </p>
-            <p className="text-lg text-earth-700 leading-relaxed">
-              My approach combines technical expertise with creative vision, ensuring that every project 
-              not only functions flawlessly but also provides an engaging user experience.
+              Outside of work, I build visual stories using AI art tools - creating cinematic, escapist scenes that explore mood,
+              space, and stillness. It's how I recharge and experiment with aesthetics, and that visual thinking often makes
+              its way back into how I approach UI and product design.
             </p>
             
             <div className="flex flex-wrap gap-3 mt-8">
-              {['React', 'TypeScript', 'Node.js', 'Python', 'Tailwind CSS', 'PostgreSQL', 'AWS', 'Docker'].map((skill) => (
+              {['Python', 'Django', 'Node.js', 'Flask', 'Angular', 'HTML', 'PostgreSQL', 'AWS', 'CSS', 'JavaScript', 'React', 'GitHub Actions', 'Render', 'Streamlit'].map((skill) => (
                 <span 
                   key={skill}
                   className="px-4 py-2 bg-sage-100 text-sage-700 rounded-full text-sm font-medium"
@@ -42,8 +39,10 @@ const About: React.FC = () => {
             <div className="aspect-square bg-gradient-to-br from-sage-200 to-earth-200 rounded-2xl shadow-2xl overflow-hidden">
               <div className="w-full h-full bg-gradient-to-br from-sage-300/20 to-earth-300/20 flex items-center justify-center">
                 <div className="text-center text-earth-600">
-                  <div className="text-6xl mb-4">🎨</div>
-                  <p className="text-lg font-medium">Creative Developer</p>
+                  <img
+                    src="/er_avatar.png"
+                    alt="ER Avatar"
+                    className="w-full h-full object-cover rounded-2x1"></img>
                 </div>
               </div>
             </div>
